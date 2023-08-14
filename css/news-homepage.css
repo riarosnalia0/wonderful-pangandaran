@@ -1,0 +1,41 @@
+html #tie-block_611 {
+  --brand-color: #0099e5;
+  --dark-brand-color: #0099e5;
+  --bright-color: #ffffff;
+}
+#tie-block_611 {
+  color: #000000;
+}
+#tie-block_611 .container-wrapper,
+#tie-block_611 .flexMenu-popup,
+#tie-block_611.full-overlay-title li:not(.no-post-thumb) .block-title-overlay {
+  background-color: #ffffff;
+}
+#tie-block_611 .slider-arrow-nav a:not(:hover),
+#tie-block_611 .pagination-disabled,
+#tie-block_611 .pagination-disabled:hover {
+  color: #000000 !important;
+}
+#tie-block_611 a:not(:hover):not(.button) {
+  color: #000000;
+}
+#tie-block_611 .entry,
+#tie-block_611 .post-excerpt,
+#tie-block_611 .post-meta,
+#tie-block_611 .day-month,
+#tie-block_611 .post-meta a:not(:hover) {
+  color: #000000 !important;
+  opacity: 0.9;
+}
+#tie-block_611.first-post-gradient .posts-items li:first-child a:not(:hover),
+#tie-block_611.first-post-gradient li:first-child .post-meta {
+  color: #ffffff !important;
+}
+#tie-block_611 .slider-arrow-nav a,
+#tie-block_611 .pages-nav .pages-numbers a,
+#tie-block_611 .show-more-button {
+  border-color: #c6d9d8;
+}
+.block-head-1 #tie-block_611 .the-global-title {
+  border-color: #c6d9d8;
+}

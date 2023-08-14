@@ -1,0 +1,189 @@
+.sidebar .container-wrapper,.sidebar .tie-weather-widget {
+    margin-bottom: 30px
+}
+
+@media (max-width: 991px) {
+    .sidebar .container-wrapper,.sidebar .tie-weather-widget {
+        margin-bottom:15px
+    }
+}
+
+body:not(.has-builder) .sidebar .container-wrapper:last-child,body:not(.has-builder) .sidebar .tie-weather-widget:last-child {
+    margin-bottom: 0
+}
+
+@media (max-width: 991px) {
+    .has-sidebar .sidebar {
+        margin-top:15px
+    }
+
+    .magazine2.has-sidebar .sidebar {
+        margin-top: 40px
+    }
+}
+
+/** Widget Tittle **/
+.widget-title {
+    position: relative
+}
+
+.widget-title .the-subtitle {
+    font-size: 15px;
+    min-height: 15px
+}
+/** Widget Tittle **/
+
+/** Post Widget Body **/
+.post-widget-body {
+    padding-left: 125px
+}
+
+.posts-inverted .post-widget-body:not(.no-small-thumbs) {
+    padding-left: 0;
+    padding-right: 125px
+}
+
+.post-widget-body .post-title {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 5px
+}
+/** Post Widget Body End **/
+
+/** Post Widget Thumbnail **/
+.post-widget-thumbnail {
+    float: left;
+    margin-right: 15px;
+    position: relative
+}
+
+.posts-inverted .post-widget-thumbnail {
+    float: right;
+    margin-left: 15px;
+    margin-right: 0
+}
+
+.post-widget-thumbnail img.tie-small-image,.post-widget-thumbnail img.size-thumbnail,.review-thumbnail img.tie-small-image,.review-thumbnail img.size-thumbnail {
+    width: 110px
+}
+
+.post-widget-thumbnail .tie-small-image img,.review-thumbnail .tie-small-image img {
+    width: 110px
+}
+/** Post Widget Thumbnail **/
+
+.two-cols {
+    margin-left: -5px;
+    margin-right: -5px
+}
+
+.two-cols:not(.fullwidth-stats-icons) li:nth-child(2) {
+    padding-top: 0
+}
+
+.two-cols li:nth-last-child(-n+2) {
+    margin-bottom: 0
+}
+
+.two-cols li:nth-child(2n+1) {
+    clear: both
+}
+
+@media (min-width: 1050px) {
+    .two-cols li:nth-child(odd):last-child {
+        width:100%
+    }
+}
+
+/** Popular List **/
+.posts-list-counter {
+    counter-reset: post-widget-counter
+}
+
+.posts-list-counter li.widget-post-list:before {
+    display: block;
+    width: 30px;
+    height: 30px;
+    content: counter(post-widget-counter, decimal);
+    counter-increment: post-widget-counter;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: -15px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    border: 2px solid #ffffff;
+    background: var(--brand-color);
+    color: var(--bright-color);
+    border-radius: 100%
+}
+
+@media (max-width: 991px) {
+    .posts-list-counter li.widget-post-list:before {
+        left:-10px
+    }
+}
+
+.widget-posts-list+.button {
+    margin-top: 24px !important
+}
+
+li.widget-post-list,.recent-comments-widget li {
+    padding: 7px 0;
+    position: relative
+}
+/** Popular List End **/
+
+/** Widget Categorie **/
+.widget_categories li {
+    text-align: right
+}
+
+.widget_categories li a {
+    float: left;
+    white-space: nowrap;
+    word-wrap: normal
+}
+
+.widget_categories li {
+    padding: 5px 0 5px;
+    font-size: 105%
+}
+
+.widget_categories li a:before {
+    font-family: 'tiefonticon';
+    color: #2c2f34;
+    font-size: 13px;
+    display: inline-block;
+    line-height: 18px;
+    width: 12px;
+    text-align: left
+}
+
+/** Tie Widget Category **/
+.tie-widget-categories li a:hover+span {
+    box-shadow: inset 0 0 0 11px rgba(0,0,0,0.3)
+}
+
+div.tie-widget-categories .children li {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.cat-counter a+span {
+    display: inline-block;
+    background-color: var(--brand-color);
+    text-align: center;
+    font-size: 85%;
+    padding: 0 5px;
+    min-width: 24px;
+    height: 22px;
+    line-height: 22px;
+    color: var(--bright-color);
+    border-radius: 2px;
+    transition: box-shadow 0.6s cubic-bezier(0.165, 0.84, 0.44, 1)
+}
+/** Tie Widget Category End **/
+/** Widget Category End **/
