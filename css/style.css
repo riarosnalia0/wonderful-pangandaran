@@ -1374,13 +1374,12 @@ ul {
   margin-bottom: 7px;
   margin-right: 4px;
   border-radius: 4px;
-  border: 1px solid #ee5e3a;
+  border: 1px solid #878787;
   font-size: 11px;
   color: #878787;
 }
 .tagcloud a:hover {
-    background-color: #ee5e3a;
-    color: white;
+    color: #ee5e3a;
 }
 /** Tag Cloud End **/
 /** FOOTER END **/
