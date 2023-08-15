@@ -689,6 +689,16 @@ a.post-cat:hover {
 }
 /** Post Items End **/
 
+/** Thumb Link **/
+.all-over-thumb-link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 2
+}
+/** Thumb Link End **/
+
 /** Thumb Overlay **/
 .thumb-overlay-link {
   position: absolute;
@@ -1390,6 +1400,7 @@ ul {
 }
 .category-news a {
   font-size: 15px;
+  color: #ee5e3a;
 }
 .category-news a:hover {
   color: #ee5e3a;
@@ -1539,3 +1550,18 @@ ul {
   font-size: 15px;
 }
 /********** ABOUT END **********/
+
+/** Zoom **/
+.zoom {
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.zoom img {
+  transition: 0.5s all ease-in-out;
+}
+
+.zoom:hover img {
+  transform: scale(1.1);
+}
+/** Zoom End **/
